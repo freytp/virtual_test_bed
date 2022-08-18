@@ -8,8 +8,8 @@ a prismatic ceramic core which accommodates 516 coolant channels, 42 bypass chan
 electric heating elements. Coupled to the core is a steam generator for full thermodynamic 
 analysis of a gas-cooled reactor system. To provide a radiative boundary for core heat loss 
 quantification, the HTTF core is surrounded by the Reactor Cavity Cooling System (RCCS). 
-The RCCS is a square array of steel panels accomodating water flow which surrounds the 
-reactor pressure vessel (RPV) of the HTTF. Outside of the RCCS water panels is a layer of 
+The RCCS is a square array of steel panels accommodating water flow which surrounds the 
+reactor pressure vessel (RPV) of the HTTF. Outside the RCCS water panels is a layer of 
 fiberglass insulation which serves as the final thermal boundary between the HTTF system 
 and ambient conditions of the room.
 
@@ -34,17 +34,17 @@ the following transient progression:
 
        1) t = 0-180,000 s
 
-              a) Heat up to steady-state, steady-flow, condition
+              a) Heat up
 
        2) t = 180,000 s
 
               a) Turn off primary loop gas circulator
-              b) Increase electric heater power output
-              c) Depressurize primary loop to atmospheric conditions
+              b) Depressurize primary loop to atmospheric conditions
 
        3) t = 180,000-213,000 s
 
-              a) Decrease electric heater power to emulate decay heat curve of nuclear 
+              a) Increase electric heater power to emulate reactor power excursion
+              b) Slowly decrease electric heater power to emulate decay heat curve of nuclear 
               reactor core
 
        4) t = 213,000-270,000 s
@@ -53,7 +53,7 @@ the following transient progression:
 
 Of note, the transient had a few anomalies which affected the results. During part 1 of the 
 transient, a slow coolant leak occurred in the primary system which caused a decrease in 
-primary coolant inventory. Thankfully HTTF operators were able to fix the leak during the 
+primary coolant inventory. HTTF operators were able to fix the leak during the 
 test, however, the amount of coolant lost, amount of make-up coolant added, temperature of 
 the make-up coolant, and the time of the make-up coolant addition were unknown during the 
 making of this model.
@@ -63,6 +63,6 @@ high temperatures experienced in the HTTF core. This resulted in experimental da
 which include instantaneous changes in temperature which are not realistic.
 
 At approximately t = 213,000 s, one of the electric heater banks failed and lost power. To 
-preseve core symmetry HTTF operators turned off the other operating heater bank. This 
+preserve core symmetry HTTF operators turned off the other operating heater bank. This 
 resulted in a premature termination of part 3 of the transient. 
 
